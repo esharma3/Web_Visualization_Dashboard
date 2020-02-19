@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>cloudiness</title>   
+		<meta charset="utf-8">
+		<!-- to adjust based on screen size -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+	<!-- navigation bar -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+		  	<a class="navbar-brand" href="index.html">
+		  		<span class="lat">Latitude</span></a>
+
+		  	<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+		  		<span class="navbar-toggler-icon"></span>
+		  	</button>
+
+		  	<div class="collapse navbar-collapse" id="menu">
+	 			<ul class="navbar-nav ml-auto">
+	  	    		<li class="nav-item dropdown">
+		       			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+		               	 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					        <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+					        <a class="dropdown-item" href="humidity.html">Humidity</a>
+					        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+					        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+					    </div>
+					</li>
+	  		    	<li class="nav-item">
+	     				<a class="nav-link" href="comparison.html" target="_blank">Comparison</a>
+	   				</li>
+	   				<li class="nav-item">
+	      				<a class="nav-link" href="data.html" target="_blank">Data</a>
+	    			</li>
+		  		</ul>
+		  	</div>
+
+		</nav>
+
+	<!-- main section -->	
+ 		<section id="main">
+
+ 			<div class="container-fluid">
+
+				<div class="row">
+
+					<div class="col-sm-12 col-md-7">
+						<div class="box">
+
+								<div class="header">
+									<h1 class="text-info">Latitude vs. Cloudiness
+									<hr></h1> 
+								</div>
+
+								<div class="row">
+									<div class="col-12">
+										<img src="images/City Latitude vs. Cloudiness.png" class="img-fluid mx-auto d-block" alt=""/>
+									</div>
+
+									<div class="col-12">
+										<p class="text-secondary">There does not seem to be any particular relationship between the latitude and the cloudiness %. However, there are bands of cities at 0%, 20%, 40%, 78% and 100% of cloudiness (throughout Northern and Southern hemisphere).</p> 
+									</div>
+								</div>
+						</div>	
+					</div>						
+			
+
+					<div class="col-sm-12 col-md-5">
+
+						<div class="box">
+
+							<div class="header">
+								<h1 class="text-info">Visualizations
+								<hr></h1> 
+							</div>
+
+							<div class="row">
+								<div class="col-3 col-lg-6 col-md-6">
+									<a href="max_temperature.html"><img src="images/City Latitude vs. Max Temperature.png" class="img-fluid" alt=""></a>
+								</div>
+								<div class="col-3 col-lg-6 col-md-6">
+									<a href="humidity.html"><img src="images/City Latitude vs. Humidity.png" class="img-fluid"  alt=""></a>
+								</div>
+								<div class="col-3 col-lg-6 col-md-6">
+									<a href="cloudiness.html"><img src="images/City Latitude vs. Cloudiness.png" class="img-fluid"  alt=""></a>
+								</div>
+								<div class="col-3 col-lg-6 col-md-6">
+									<a href="wind_speed.html"><img src="images/City Latitude vs. Wind Speed.png" class="img-fluid" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div> 
+			</div>  
+		</section>
+
+
+<!-- scripts -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
