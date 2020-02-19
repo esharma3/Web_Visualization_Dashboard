@@ -1,0 +1,276 @@
+@import url('https://font.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	background-color: #EDEDED; 
+}
+.navbar {
+	padding: .6rem;
+}
+
+.lat { 
+	background-color: #0BADA6;
+	width: 120%;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    display:inline-block;
+    text-align: center;
+}
+
+.navbar-nav li {
+	padding-right: 30px;
+}
+
+.nav-link {
+	font-size: 1.1rem;
+}
+
+.container-fluid {
+	padding-top: 50px;
+	height: 92vh;
+	background-color: #EDEDED; 
+}
+
+#comparison-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+.col-centered {
+	display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+    text-align: center;
+}
+
+.box {
+	margin-top: 30px; 
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color:black;
+	background-color: white;
+}
+
+#main h1{
+	padding: 10px;
+	font-size: 25px;
+	font-family: 'Poppins';
+	color: #0BADA6 !important;
+	font-weight: bold;
+}
+
+#main h2{
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Poppins';
+	color: #0BADA6 !important;
+	font-weight: bold;
+}
+
+p {
+	padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+
+#data-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+
+#data h1 {
+	margin-top: 20px;
+	padding-top: 10px;
+	font-size: 35px;
+	font-family: 'Poppins';
+	color: #0BADA6 !important;
+	font-weight: bold;
+}
+
+#data p {
+    margin-top: 0.1px;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+th { 
+    font-size: 15px;
+}
+
+table {
+    font-size: 14px;
+}
+
+
+/*---Media Queries --*/
+
+@media (max-width: 992px) {
+
+	.lat {
+	background-color: #0BADA6;
+	width: 120%;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    display:inline-block;
+    text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.navbar.bg-dark {
+        background-color: #0BADA6 !important;
+    }
+
+	.lat {
+		width: 100%;
+	    font-size: 22px;
+	    padding: 1px;
+	}
+
+	.dropdown-item {
+	    font-size: 14px;
+	}
+
+	#comparison-container {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	#main h1 {
+	    padding: 8px;
+	    font-size: 25px;
+	}
+
+	#main h2 {
+		padding: 10px;
+		font-size: 20px;
+		font-family: 'Poppins';
+		color: #0BADA6 !important;
+		font-weight: bold;
+	}
+
+	p {
+	    padding: 6px;
+	    margin-top: 6px;
+	    font-size: 14px; 
+	}
+
+	#data-container {
+		padding: 5px;
+	}
+
+	#data h1 {
+		margin-top: 20px;
+		padding-top: 10px;
+		font-size: 25px;
+		font-family: 'Poppins';
+		color: #0BADA6 !important;
+		font-weight: bold;
+	}
+
+	#data p {
+	    margin-top: 0.1px;
+	    font-size: 16px;
+	    font-family: 'Poppins';
+	}
+
+	th { 
+	    font-size: 12px;
+	}
+
+	table {
+	    font-size: 12px;
+	}
+}
+
+ 
+@media (max-width: 576px) {
+
+ 	.navbar.bg-dark {
+        background-color: #0BADA6 !important;
+    }
+
+    .lat {
+	    font-size: 22px;
+	    padding: 1px
+	}
+
+	.dropdown-item{
+        font-size: 10px;
+    }
+
+	.box {
+		margin-top: 20px; 
+		margin-bottom: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 10px;
+		padding-left: 10px;
+		color: black;
+		background-color: white;
+	}
+
+	#comparison-container {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	#main h1 {
+	    padding: 6px;
+	    font-size: 16px;
+	}
+
+	#main h2 {
+	    padding: 4px;
+	    font-size: 16px;
+	}
+
+	#data-container {
+	padding: 10px;
+	}
+
+	#data h1 {
+		margin-top: 20px;
+		padding-top: 10px;
+		font-size: 25px;
+		font-family: 'Poppins';
+		color: #0BADA6 !important;
+		font-weight: bold;
+	}
+
+	#data p {
+    margin-top: 0.1px;
+    font-size: 15px;
+    font-family: 'Poppins';
+	}
+
+	th { 
+	    font-size: 12px;
+	}
+
+	table {
+	    font-size: 12px;
+	}
+}
+
+  
